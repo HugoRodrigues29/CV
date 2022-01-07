@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* header */
+
+.fas{  font-size: 50px;
+}
+
+.menu{
+    display:flex;
+    list-style: none;
+    justify-content: center;
+    font-size: 22px;
+    width: 100%;
+    padding:0;
+}
+
+ul li a{
+    text-decoration:none;
+    color: black;
+    
+}
+
+ul li a:hover{
+    color:lightblue;
+    transition: 1s all;
+}
+
+ul li{
+    padding:20px;
+}
+
+/* contenu */
+
+h1{
+    font-size:23px;
+    text-align: center;
+    padding-top: 50px;
+    display:flex;
+    align-items:center;
+}
+
+body{
+    overflow:auto;
+    background-color: lightgray;
+
+}
+
+.logo{
+    display:flex;
+    margin: auto;
+    width: 230px;
+}
+
+.contenu-accueil{
+    text-align: center;
+    height : auto;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    border-radius: 12px;
+    margin-top: 130px;
+    justify-content: center;
+}
+
+.barre{
+    width: 240px;
+}
+
+.titre{
+    font-family: 'Luxurious Roman', cursive;
+}
+
+.conteneur{
+    height:auto;
+    width: 20%;
+    border-radius: 12px;
+    color:black;
+    margin-left: 100px;
+  
+}
+
+.main{
+    display:flex;
+    margin-top:170px;
+    width: 100%;
+    align-items : center;
+    margin:0;
+}
+
+.main2{
+    display:flex;
+    margin-top: 80px;
+    justify-content: space-around;
+    align-items: baseline;
+    width:100%;
+}
+
+.skills {
+    text-align: center; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50%;
+}
+
+progress{
+    font-size: 40px;
+}
+
+
+/*Page informations*/
+
+.liste-qualités{
+    list-style: none;
+}
+
+.qui-je-suis{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 70px;
+    font-size: 18px;
+}
+
+.ecole{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin:10px;
+    text-align:center;
+    width: 40%;
+    font-size: 18px;
+}
+
+.qualités{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin:10px;
+    text-align: justify;
+    margin-right:40px;
+    width:40%;
+    font-size: 18px;
+    ;
+    
+}   
+
+.info-main{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+h2{
+    font-family: 'Pacifico', cursive;
+}
+
+/*Page contact*/
+
+.gen-contact{
+    display:flex;
+    align-items: center;
+}
+.main-contact{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.para-contact{
+    padding-bottom: 50px;
+}
+
+.inputname{
+    margin-top: 25px;
+    width: 300px;
+    background-color: lightblue;
+    border: solid black;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    height: 25px;
+}
+
+.inputemail{
+    margin-top: 25px;
+    width: 300px;
+    background-color: lightblue;
+    border: solid black;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    height: 25px;
+}
+
+button{
+    margin-top: 10px;
+    width: 250px;
+    height: 25px;
+    background-color: white;
+    margin-bottom: 111.5px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: lightblue;
+    transition: 1s all;
+}
+
+.textarea{
+    margin-top: 25px;
+    width: 300px;
+    background-color: lightblue;
+    border: solid black;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.enveloppe-gif{
+    width:100px;
+}
+
+.div-gifemail{
+    text-align:center;
+}
+
+.info-contact{
+    width: 50%;
+    font-size: 12px;
+    padding-left: 150px;
+    text-align:center;
+}
+
+.info-contact .fas{
+    font-size: 35px;
+    color: black;
+}
+
+.monemail{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.phone{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.maison{
+    margin-top: 10px;
+}
+
+/*Footer*/
+
+.footer{
+
+    color: white;
+    background-color: black;
+    margin-top: 35px;
+    display : flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+
+#idfooter{
+    display: flex;
+    flex-direction: column;
+    line-height: 50%;
+    align-items: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 25px;
+    margin-top: -10px;
+}
+
+footer a:hover{
+    color: lightblue;
+    transition: 1s all;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    body{
+        width: 100%;
+    }
+
+
+    /*Page Principale*/
+
+    .main2{
+        flex-direction: column;
+        width: 100%;
+        margin:auto;
+    }
+
+    .titre{
+        padding-top: -50px;
+    }
+
+    progress{
+        font-size: 20px;
+    }
+
+    .skills{
+        margin:auto;
+        width:auto;
+    }
+
+    .conteneur{
+        width:auto;
+        padding:10px;
+        margin:0;
+    }
+
+    /*Seconde Page*/
+
+    .info-main{
+        display:flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .ecole{
+        font-size: 15px;
+        width: auto;
+    }
+
+    .qualités{
+        width:auto;
+        font-size: 15px;
+    }
+
+    .qui-je-suis{
+        font-size:15px;
+        margin-bottom: 40px;
+    }
+
+   /*Contact Page*/
+
+    .gen-contact{
+        flex-direction: column;
+    }
+
+    .info-contact{
+        width:auto;
+        padding-left:0;
+        text-align:center;
+    }
+
+    button{
+        margin-bottom:50px;
+    }
+
+}
+
+
+
+
+
+
+
